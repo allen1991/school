@@ -1,0 +1,120 @@
+.goods-plan-box{
+	position: relative;
+}
+.goods-img-banner{
+	position: relative;
+	width: 16rem;
+	height: 16rem;
+	overflow: auto;
+}
+
+.goods-img-wrap{
+	width: 48rem;
+	height: 16rem;
+}
+
+.goods-img-wrap li{
+	float: left;
+	width: 16rem;
+	max-height: 16rem;
+}
+
+.goods-img-privious{
+	position: absolute;
+	height: 2rem;
+	width: 2rem;
+	top: 7rem;
+	background: red;
+	z-index: 10;
+}
+.goods-img-next{
+	position: absolute;
+	height: 2rem;
+	width: 2rem;
+	top: 7rem;
+	right: 0rem;
+	background: red;
+	z-index: 10;
+}
+
+.goods-img-dots-box{
+	position: absolute;
+	height: 0.5rem;
+	width: 16rem;
+	top: 15rem;
+	z-index: 10;
+	text-align: center;
+
+}
+
+.img-dots{
+	display: inline-block;
+	padding: 0.2rem;
+	border: 0.1rem solid #d8d8d8;
+	border-radius: 0.25rem;
+}
+
+.img-dots-active{
+	background: #d8d8d8;
+}
+
+.goods-detail-box{
+	position: relative;
+	margin-top: 0.1rem;
+}
+
+.detail-item{
+	padding-top: 0.1rem;
+	padding-right: 0.1rem;
+	padding-left: 0.1rem;
+	font-size: 0.6rem;
+}
+
+.detail-key{
+	font-size: 0.6rem;
+	margin-right: 0.5rem;
+	float: left;
+	width: 2rem;
+}
+
+.detail-value{
+	float: left;
+	width: 13rem;
+	font-size: 0.6rem;
+}
+
+.goods-plan-box{
+	margin-top: 0.3rem;
+	border-top: 1px solid #d8d8d8;
+}
+
+.goods-plan-title{
+	text-align: center;
+	color: #EA2B2B;
+	font-weight: bold;
+	font-size: 0.8rem;
+	margin-bottom: 0.2rem;
+}
+
+.goods-plan-detail{
+	position: relative;
+}
+.plan-detail-item{
+	font-size: 0.6rem;
+	text-indent: 1rem;
+
+}
+
+.more-plan-detail{
+	text-align: center;
+	margin-top: 0.2rem;
+	font-size: 0.7rem;
+	color: #0D1D9A;
+}
+
+.imgs-wrap{
+	margin-top: 0.2rem;
+	width: 16rem;
+	text-align: center;
+	font-size: 0.4rem;
+}
